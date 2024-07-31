@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(55, 55, 56);
+}
+
+.container{
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.h1{
+    color: white;
+    font-family: cursive;
+}
+#inputOne{
+height: 38px;
+border-radius: 10px;
+border: 0;
+}
+#inputTwo{
+height: 38px;
+margin-top: 7px;
+border-radius: 10px;
+border: 0;
+}
+.btnPlus{
+    width: 270px;
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 7px;
+    border-radius: 9px;
+    border: 0;
+    background-color: rgb(67, 134, 67);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btnPlus:hover{
+    background-color:rgba(67, 134, 67, 0.356) ;
+}
+.btnMinus{
+    width: 270px;
+    height: 40px;
+    border-radius: 9px;
+    border: 0;
+    background-color: rgb(196, 51, 51);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btnMinus:hover{
+    background-color:rgba(196, 51, 51, 0.521) ;
+}
+.btnMult{
+    width: 270px;
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 7px;
+    border-radius: 9px;
+    border: 0;
+    background-color: rgb(67, 115, 134);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btnMult:hover{
+    background-color:rgba(67, 115, 134, 0.582)  ;
+}
+.btnDivis{
+    width: 270px;
+    height: 40px;
+    border-radius: 9px;
+    border: 0;
+    background-color: rgb(183, 185, 50);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btnDivis:hover{
+    background-color:rgba(183, 185, 50, 0.658) ;
+}
+.btn{
+    height: 36px;
+    margin-top: 7px;
+    border-radius: 8px;
+    border: 2px solid yellowgreen;
+    color: yellowgreen;
+    background-color: rgb(55, 55, 56);
+    font-size: 16px;
+    font-family: cursive;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: yellowgreen;
+    color: rgb(55, 55, 56);
+}
+
+.h4{
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+    margin-left: 250px;
+    margin-top: -2px;
+}
+#result{
+    color: white;
+    font-size: 20px;
+    margin-left: 290px;
+    margin-top: -20px;
+}
+.content{
+    margin-top: 10px;
+    border: 2px solid yellowgreen;
+    background-color: rgb(55, 55, 56);
+}
+
